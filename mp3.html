@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MP3 Player</title>
+    </head>
+    <h1 
+style="text-align:center; 
+margin-top:50px; 
+font-family: big john; 
+font-size:50pt; color:#ffffff; 
+background-image: url(roses.jpg)";>TTQ's Tune Player</h1>
+    <body bgcolor = "#000000"; font>
+        <p style="color:red;">Search:</p>
+        <input style="color:red;" type="search" name="search" />
+        <input style="color:red;" type="submit" value="Search" />
+        
+        <label style="color:red;" for="username">Username:</label>
+        <input style="color:red;" type="text" name="username"
+        required="required">
+        <label style="color:red;" for "password">Password:</label>
+        <input style="color:red;" type="password" name="password"
+        required="required">
+        <input style="color:red;" type="submit" value="Submit" />
+        
+        <br>
+        <br>
+
+        <img style="border:5px solid red" src="tempo.jpg"><img style="border:5px solid red" src="questions.jpg" width="305" height="170"><img style="border:5px solid red" src="ff.jpg" width="305" height="170"><img style="border:5px solid red" src="what.jp.jpg" width="305" height="170">  <br><audio src="audio/Tempo.mp3"
+        controls autoplay></audio>
+        </audio>
+        <audio src="audio/Questions.mp3"
+        controls autoplay>
+        </audio>
+        <audio src="audio/FF.mp3"
+        controls autoplay>
+        </audio>
+        <audio src="audio/what.mp3"
+        controls autoplay>
+        </audio>
+
+        <fieldset>
+				<legend style="color:red;">Your Review:</legend>
+				<p>
+					<label style="color:red;" for="hear-about">How did you hear about us?</label>
+					<select name="referrer" id="hear-about">
+						<option value="google">Google</option>
+						<option value="friend">Friend</option>
+						<option value="advert">Advert</option>
+						<option value="other">Other</option>
+					</select>
+				</p>
+				<p style="color:red;"> 
+					Would you visit again?<br />
+					<label style="color:red;"><input type="radio" name="rating" value="yes" /> Yes</label>
+					<label style="color:red;"><input type="radio" name="rating" value="no" /> No</label>
+					<label style="color:red;"><input type="radio" name="rating" value="maybe" /> Maybe</label>
+				</p>
+				<p>
+					<label style="color:red;" for="comments">Comments:</label><br />
+					<textarea rows="4" cols="40" id="comments"></textarea>
+				</p>
+				<label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+				<input type="submit" value="Submit review" />
+			</fieldset>
+    </body>
+</html>

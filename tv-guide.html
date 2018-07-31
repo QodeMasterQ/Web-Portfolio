@@ -1,0 +1,242 @@
+<title>TV Guide</title>
+<link href="tv-guide-style.css" type="text/css"
+    rel="stylesheet" />
+<style>  
+    a:link {
+        text-decoration: none;
+        color:white;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color:white;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        color:white;
+    }
+    
+    a:active {
+        text-decoration: underline;
+        color:white;
+    }
+    * {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: darkred;
+}
+
+.header a.active {
+  background-color: lavender;
+  color:darkred;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+</style>
+<div class="header">
+        <a href="video.html" class="logo">RAD'S TV Guide</a>
+        <div class="header-right">
+          <a class="active" href="tv-guide.html">Home</a>
+          <a href="survey.html">Survey</a>
+          <a href="aboutus.html">About Us</a>
+        </div>
+      </div>
+<div style="overflow-x:scroll;">
+    <table border="1" bgcolor="#000000">
+        <tr>
+            <th></th>
+            <th height="50">8:00 pm</th>
+            <th height="50">8:30 pm</th>
+            <th height="50">9:00 pm</th>
+            <th height="50">9:30 pm</th>
+            <th height="50">10:00 pm</th>
+            <th height="50">10:30 pm</th>
+            <th height="50">11:00 pm</th>
+            <th height="50">11:30 pm</th>
+            <th height="50">12:00 am</th>
+            <th height="50">12:30 am</th>
+            <th height="50">1:00 am</th>
+            <th height="50">1:30 am</th>
+            <th height="50">2:00 am</th>
+        </tr>
+        <tr>
+        <th><a href="https://www.bet.com/" target="_blank"><img src="bet-logo.jpg" width="80" height="80"></a></th>
+            <td colspan="7" width="150" class="tv-ma" title="TV-MA"><a href="https://www.bet.com/shows/bet-awards/bet-awards-2018-coming-soon.html" target="_blank">BET Awards</a></td>
+            <td colspan="2" width="150" class="rated-r" title="Rated-R"><a href="http://www.xxlmag.com/eye-candy/2015/08/16-memorable-bet-uncut-music-videos/" target="_blank">BET UNCUT</a></td>
+            <td width="150" class="pg" title="After picking up Gina's prized earrings from the jeweler, Tommy, Cole and Jerome get robbed. Rappers SALT-N-PEPA
+            guest star. Rated PG"><a href="https://www.imdb.com/title/tt0103488/" target="_blank">Martin</a></td>
+            <td width="150" class="pg" title="When Gina gets too busy to take care of Martin, he makes a mess of
+            her business life. Rated PG"><a href="https://www.imdb.com/title/tt0103488/" target="_blank">Martin</a></td>
+            <td width="150" class="pg" title="Cole gets terminated from his job, and Martin hires him, causing havoc when CHARLES BARKLEY (himself) appears on
+            Martin's talk show. Rated PG"><a href="https://www.imdb.com/title/tt0103488/" target="_blank">Martin</a></td>
+            <td width="150" class="pg" title="Martin and Gina are afraid to terminate their tough new housekeeper (MARLA GIBBS). Rated PG"><a href="https://www.imdb.com/title/tt0103488/" target="_blank">Martin</a></td>
+        </tr>
+        <tr>
+        <th><a href="http://www.nick.com/"target="_blank"><img src="nick-logo.jpg" width="80" height="80"></a></th>
+            <td width="150" height="80" class="tv-y" title="
+            SpongeBob can't drive, but you don't need a license to operate a self-driving car! Patrick thinks he's an old man, 
+            so it's up to SpongeBob to remind him how much fun being a kid can be! Rated TV-Y"><a href="http://www.nick.com/spongebob-squarepants/" target="_blank">Spongebob Squarepants</a></td>
+            <td width="150" height="80" class="tv-g" title="
+            Lincoln has plans for introducing him to a new girl, but it turns for the worse when his sisters find out Albert, Lincoln's uncle has met
+            a new girlfriend. Rated TV-G"><a href="http://www.nick.com/loud-house/" target="_blank">Loud House</a></td>
+            <td width="150" height="80" class="tv-g" title="Tired of being told what to do by his parents, Timmy wishes that he would have to do the opposite of whatever his parents told him.Timmy wishes 
+            he was a teenager to ride the cool new ride at the amusement park. Rated TV-G"><a href="http://www.nick.com/fairly-oddparents/" target="_blank">Fairly Oddparents</a></td>
+            <td width="150" height="80" class="tv-y" title="Rated TV-Y" colspan="2"><a href="http://www.nick.com/kids-choice-awards/" target="_blank">Kid's Choice Awards</a></td>
+            <td width="150" height="80" class="pg" title="George runs into his aunt at the store and finds out that Benny has been lying to him for over 30 years and that his father is alive 
+            and is living in California. Rated PG"><a href="http://www.nickatnite.com/shows/george-lopez"target="_blank">George Lopez</a></td>
+            <td width="150" height="80" class="tv-g" title="Cliff has to go on a diet. Rudy does not want her own room. Rated TV-G"><a href="https://www.imdb.com/title/tt0086687/" target="_blank">The Cosby Show</a></td>
+            <td width="150" height="80" class="tv-g" title="At school, a classmate starts flirting with Theo. Theo is flattered and interested, but he already has a girlfriend. Rudy wants to 
+            have a tea party and since her sisters are busy, she asks Cliff to the tea party. Rated TV-G"><a href="https://www.imdb.com/title/tt0086687/" target="_blank">The Cosby Show</a></td>
+            <td width="150" height="80" class="tv-g" title="Vanessa starts wearing makeup without her parent's permission. Clair talks to Vanessa and reminds her she has to wait until she is 15 years old.
+            Theo is taking a fire safety class at school and quizzes his parents on procedures. Rated TV-G"><a href="https://www.imdb.com/title/tt0086687/" target="_blank">The Cosby Show</a></td>
+            <td width="150" height="80" class="pg" title="Will and Carleton take the PSATs with surprising results while Geoffry is up for his annual raise. Rated PG"><a href="https://www.imdb.com/title/tt0098800/" target="_blank">The Fresh Prince of Bel-Air</a></td>
+            <td width="150" height="80" class="pg" title="Will and Carlton try to help solve Ashley's bully problems at school until Philip and Vivian find out and try to solve 
+            the problem their own way. Rated PG"><a href="https://www.imdb.com/title/tt0098800/" target="_blank">The Fresh Prince of Bel-Air</a></td>
+            <td width="150" height="80" class="pg" title="Will gets a job to help pay for his prom. Rated PG" ><a href="https://www.imdb.com/title/tt0098800/" target="_blank">The Fresh Prince of Bel-Air</a></td>
+            <td width="150" height="80" class="pg" title="Will and Carleton take the PSATs with surprising results while Geoffry is up for his annual raise. Rated PG"><a href="https://www.imdb.com/title/tt0098800/" target="_blank">The Fresh Prince of Bel-Air</a></td>
+        </tr>
+        <tr>
+        <th><a href="https://www.espn.com/" target="_blank"><img src="espn-logo.png" width="80" height="80"></th>
+        <td width="150" height="80" class="sports" title="Sports" colspan="7"><a href="http://www.espn.com/nba/story/_/id/23027084/2018-nba-playoffs-schedule-matchups-news" target="_blank">NBA Playoffs</a></td>
+        <td width="150" height="80" class="sports" title="Sports" colspan="6"><a href="http://www.espn.com/nba/story/_/id/23027084/2018-nba-playoffs-schedule-matchups-news" target="_blank">NBA Playoffs</a></td>
+        </tr>
+        <tr>
+        <th><a href="https://www.cartoonnetwork.com/" target="_blank"><img src="cn.png" width="80" height="80"></th>
+            <td width="150" height="80" class="tv-y" title=" While shopping for quilting materials, Muriel meets two women who 
+            tell her about their quilting club. Muriel excitedly asks if she can join, but is told she must 
+            prove herself. She becomes obsessed with being admitted, no matter the cost. She soon finds out the cost is 
+            quite high: she will be sewn into the quilt. Courage must find a way to get her out of the club before she is 
+            quilted away forever.Wind. Rated TV-Y"><a href="https://www.imdb.com/title/tt0220880/" target="_blank">Courage The Cowardly Dog</td>    
+            <td width="150" height="80" class="tv-g" title="Mung Daal must stop Chowder from selling a dish with rat poison in it. Elsewhere, Schnitzel has trouble making a deposit at the bank. Rated TV-G"
+            ><a href="https://www.imdb.com/title/tt1140100/" target="_blank">Chowder</td>
+            <td width="150" height="80" class="tv-g" title="Bikini Space Planet!: Aliens mistake Johnny as the perfect specimen. Moby Jerk: Johnny boards the wrong ship for his cruise. A Gel for 
+            Johnny: Johnny's favourite hair gel runs out. Rated TV-G"><a href="https://www.imdb.com/title/tt0118360/" target="_blank">Johnny Bravo</td>
+            <td width="150" height="80" class="tv-g" title="Dexter decides to emulate his hero, Action Hank, and grow a synthetic beard to make himself more rugged. Rated TV-G"><a href="https://www.imdb.com/title/tt0115157/" target="_blank">Dexter Laboratory</td>
+            <td width="150" height="80" class="pg" title="Cow adopts an anaconda, who proceeds to swallow the entire family. / Chicken discovers a mysterious 
+            puddle that brings people in through laughter. Rated PG"><a href="https://www.imdb.com/title/tt0118289/" target="_blank">Cow & Chicken</td>
+            <td width="150" height="80" class="rated-r" title="The zombie Robot Chicken staff gets back to work! Rated R"><a href="http://www.adultswim.com/videos/robot-chicken/" target="_blank">Robot Chicken</td>
+            <td width="150" height="80" class="tv-ma" title="The zombie Robot Chicken staff gets back to work! Rated TV-MA"><a href="https://www.imdb.com/title/tt0297494/"target="_blank">Aqua Teen Hunger Force</td>
+            <td width="150" height="80" class="tv-ma" title="When the Griffins win millions in the lottery, they cant handle the good fortune and struggle to stay grounded. Rated TV-MA"><a href="https://www.imdb.com/title/tt0182576/"target="_blank">Family Guy</td>
+            <td width="150" height="80" class="tv-ma" title="As a hurricane hits Quahog, Brian gets high on mushrooms; Meg finally summons up the courage to confront the family. Rated TV-MA"><a href="https://www.imdb.com/title/tt0182576/"target="_blank">Family Guy</td>
+            <td width="150" height="80" class="pg" colspan="4" title="A local scientist is often regarded as a failure until he
+            invents a machine that can make food fall from the sky. But little does he know,
+            that things are about to take a turn for the worst. Rated PG"><a href="https://www.imdb.com/title/tt0844471/" target="_blank">Cloudy with a Chance of Meatballs</td>
+        </tr>
+        <tr>
+        <th><a href="http://www.mtv.com/" target="_blank"><img src="mtv-logo.jpg" width="80" height="80"></th> 
+            <td width="150" height="80" class="pg" title="On an all-new episode of Ridiculousness, Rob shows skateboard prodigy Jagger Eaton some -Mega Dumps, discovers some 
+            -Magnet Feet, and they all learn how to build-Budget Skateparks. Rated PG"><a href="http://www.mtv.com/shows/ridiculousness" target="_blank"><b>Ridiculousness</b></td>
+            <td width="150" height="80" class="pg" title="On an all-new episode of Ridiculousness, Rob, Sterling and Chanel come down with a bad case of... Rated PG"><a href="http://www.mtv.com/shows/ridiculousness" target="_blank">Ridiculousness</td>
+            <td width="150" height="80" class="tv-ma" title="The cast sets up house in Miami, and Ronnie upsets Samantha by flirting with other girls in the club. Rated TV-MA"><a href="http://www.mtv.com/shows/jersey-shore-family-vacation" target="_blank">Jersey Shore</td>
+            <td width="150" height="80" class="tv-ma" title="Mike, Pauly, Vinny, and Ronnie take us on a tour of the best GTL spots in Miami. Rated TV-MA"><a href="http://www.mtv.com/shows/jersey-shore-family-vacation" target="_blank">Jersey Shore</td>
+            <td width="150" height="80" title="Pauly and Vin each have a final date with their Miami girls, while Sam and Rons last supper quickly devolves into a fight. Then Jenni stirs things up between Pauly 
+            and Mike, leading to a drama-filled final night in the hot tub. Rated TV-MA" class="tv-ma"><a href="http://www.mtv.com/shows/jersey-shore-family-vacation" target="_blank">Jersey Shore</td>
+            <td width="150" height="80" class="tv-ma" title="Rated TV-MA"><a href="http://www.mtv.com/shows/jersey-shore-family-vacation" target="_blank">Jersey Shore</td>
+            <td width="150" height="80" class="tv-ma" title="Rated TV-MA"><a href="http://www.mtv.com/shows/nick-cannon-presents-wild-n-out" target="_blank">Wild 'N Out</td>
+            <td width="150" height="80" class="tv-ma" title="The housemates talk about the drama in the house. Angelina is confronted after deciding to leave the house. Rated TV-MA"><a href="http://www.mtv.com/shows/nick-cannon-presents-wild-n-out" target="_blank">Wild 'N Out</td>
+            <td width="150" height="80" class="tv-ma" title="Rae Sremmurd Rated TV-MA"><a href="http://www.mtv.com/shows/nick-cannon-presents-wild-n-out" target="_blank">Wild 'N Out</td>
+            <td width="150" height="80" title="T-Pain Rated TV-MA" class="tv-ma"><a href="http://www.mtv.com/shows/nick-cannon-presents-wild-n-out" target="_blank">Wild 'N Out</td>
+            <td width="150" height="80" class="rated-r" colspan="3" title="A year after the murder of her mother, a teenage girl is terrorized by a new killer, who 
+            targets the girl and her friends by using horror films as part of a deadly game. Rated R"><a href="https://www.imdb.com/title/tt0117571/" target="_blank">Scream</td>
+            
+        </tr>
+    </table>
+</div>
+
+
+<h4><marquee behavior="alternate" align="center">RAD'S TV GUIDE For Your Watching Pleasure!</marquee></h4>
+
+<h1 align="center">MOVIES IN YOUR LOCAL THEATER !</h1>
+
+<marquee behavior="alternate" direction"left">
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="avengers.jpg" width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="blockers.jpg" width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="panther.jpg" width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="pretty.jpg" width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="quiet.jpg" width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="rampage.jpg"width="200" height="200"></tr>
+    <tr><a href="https://www.fandango.com/39437_movietimes" target="_blank"><img src="over.jpg" height="200" width="200"></tr></marquee>
+
+    <div class="row"> 
+            <div class="column">
+              <img src="cow.jpg" width="200" height="200">
+              <img src="BET.jpg"width="200" height="200">
+              <img src="chowder.jpg" width="200" height="200">
+              <img src="cn.png" width="200" height="200">
+              <img src="cosby.jpg" width="200" height="200">
+              <img src="dexter.jpg" width="200" height="200">
+              <img src="dog.jpg" width="200" height="200">
+            </div>
+            <div class="column" width="200" height="200">
+              <img src="fairly.jpg" width="200" height="200">
+              <img src="family.jpg" width="200" height="200">
+              <img src="force.png" width="200" height="200">
+              <img src="george.jpg" width="200" height="200">
+              <img src="jersey.jpg" width="200" height="200">
+              <img src="johnny-bravo.jpg" width="200" height="200">
+              <img src="degrassi.jpg" width="200" height="200">
+            </div> 
+            <div class="column">
+              <img src="kids.jpg" width="200" height="200">
+              <img src="last_man.jpg" width="200" height="200">
+              <img src="loud.png" width="200" height="200">
+              <img src="martin.jpg" width="200" height="200">
+              <img src="meatballs.jpg" width="200" height="200">
+              <img src="mom.jpg" width="200" height="200">
+              <img src="mtv.jpg" width="200" height="200">
+            </div>
+            <div class="column">
+              <img src="nba.jpg" width="200" height="200">
+              <img src="nick.png" width="200" height="200">
+              <img src="prince.jpg" width="200" height="200">
+              <img src="ridic.jpg" width="200" height="200">
+              <img src="robot.jpg" width="200" height="200">
+              <img src="scream.jpg" width="200" height="200">
+              <img src="boymeetsworld.jpg" width="200" height="200">
+            </div>
+          </div>
+<p>
+    <a href="#top">Top of page</a>
+</p>
